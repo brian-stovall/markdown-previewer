@@ -1,5 +1,6 @@
-
-/*var Container = React.createClass({
+var React = require ('react');
+var ReactDom = require ('react-dom');
+var Container = React.createClass({
     
    render: function() {
     return (
@@ -51,4 +52,4 @@ ReactDOM.render(
         <Container />,
   document.getElementById('content')
 );
-*/
+
